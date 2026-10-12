@@ -1,4 +1,4 @@
-header {
+header, main section .container-fluid {
     color: #fff;
 }
 
@@ -50,4 +50,31 @@ header p {
 nav,
 header p {
     display: flex;
+}
+
+main section .container-fluid {
+    background-image: url(../images/slider1.jpg);
+    background-size: cover;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    object-fit: cover;
+    height: 488px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 0.6;
+    font-size: 60px;
+}
+
+.sliderTitle {
+    color: lightgreen;
+    border-left: 3px solid lightgreen;
+    padding-left: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
