@@ -138,7 +138,6 @@ div.row {
 
 .tukanContainer {
     width: 250px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
 }
 
@@ -154,4 +153,24 @@ div.row {
 iframe {
     width: 100%;
     height: 302px;
+}
+
+.quizContainer {
+    background-color: #2b5a45;
+    color: #fff;
+}
+
+.quizContainer, .quizContainer button, .tukanContainer {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.quizContainer button {
+    color: lightgreen;
+    border: 1px solid lightgreen;
+    border-radius: 20px;
+}
+
+.quizTitle {
+    font-weight: bold;
+    font-size: 20px;
 }
