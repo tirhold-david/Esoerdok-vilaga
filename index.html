@@ -13,15 +13,15 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="text-center">
             <div>
-                <p><img src="images/leaf.svg" alt="Esőerdők Védelme Logo" title="Esőerdők Védelme"> <span>Esőerdők
+                <p class="mb-0"><img src="images/leaf.svg" alt="Esőerdők Védelme Logo" title="Esőerdők Védelme"> <span>Esőerdők
                         védelme</span></p>
             </div>
             <div>
                 <ul>
-                    <li><a href="">Főoldal</a></li>
-                    <li><a href="">Veszélyeztetett állatok</a></li>
+                    <li><a href="\">Főoldal</a></li>
+                    <li><a href="fajok.html">Veszélyeztetett állatok</a></li>
                     <li><a href="">Erdőírtás</a></li>
                     <li><a href="">Tippek</a></li>
                     <li><a href="">Kvíz</a></li>
@@ -39,7 +39,7 @@
                     <h1>Fedezd fel az esőerdők világát</h1>
                     <p class="sliderIntro">Ismerd meg bolygónk legösszetettebbökoszisztémáját, és azt, mit tehetünk
                         közösen a jövőért.</p>
-                    <p><button type="button" class="btn btn-success">Érdkel</button></p>
+                    <p><button type="button" class="btn btn-success"><a href="#saveForestText">Érdekel</a></button></p>
                 </div>
             </div>
         </section>
@@ -60,14 +60,14 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="tukanContainer">
-                            <img class="rounded" src="images/tukan.jpg" alt="Kíváncsi tukán fényes csőrrel"
+                            <img src="images/tukan.jpg" alt="Kíváncsi tukán fényes csőrrel"
                                 title="Tukán">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="mt-3 pt-3">
+        <section class="mt-3 pt-3" id="saveForestText">
             <div class="container">
                 <p>Az esőerdők bolygónk legősibb, legösszetettebb és legrejtélyesebb szárazföldi ökoszisztémái, amelyek
                     már tízmillió évnél is régebben léteznek, és az élet olyan elképesztő bőségét rejtik, amely sehol
@@ -99,12 +99,34 @@
         </section>
         <section>
             <div class="container w-100">
-                <div class="text-center"><iframe src="media/esoerdo-rovid-video.mp4"></iframe></div>
+                <div class="container quizContainer p-3">
+                    <p class="text-center quizTitle">Próbálja ki  kvízünket!</p>
+                    <p class="text-center pt-3"><button type="button" class="btn btn-outline-success">Quiz megkezdése</button></p>
+                </div>
+                <div class="mt-4">
+                    <p>Az esőerdők kulturális és globális jelentősége felbecsülhetetlen. Gyakran nevezzük őket a Föld
+                        tüdejének, hiszen a hatalmas növénytömeg rengeteg szén-dioxidot köt meg és oxigént termel, ezzel
+                        kulcsszerepet játszva a bolygó éghajlatának szabályozásában és a globális felmelegedés
+                        mérséklésében. Emellett ezek a vadonok a modern orvostudomány kincsesbányái is: a ma használt
+                        gyógyszereink jelentős részének alapanyaga az itteni növényekből származik, és a kutatók szerint
+                        még több ezer olyan faj rejtőzik a sűrűben, amelyek gyógyírt jelenthetnek a jövő betegségeire.
+                        Sajnos ez az édeni világ napjainkban végveszélyben van. Az emberi terjeszkedés, a fakitermelés,
+                        a mezőgazdasági területek növelése és a bányászat rohamos ütemben pusztítja ezeket az ősi
+                        erdőket. Amikor egy esőerdő részlet eltűnik, nemcsak fák dőlnek ki, hanem bennszülött törzsek
+                        otthonai semmisülnek meg, és olyan egyedi állat- és növényfajok vesznek el örökre, amelyeket
+                        talán még meg sem ismert az emberiség. Az esőerdők megóvása ezért nem csupán egy távoli
+                        természetvédelmi feladat, hanem a saját jövőnk, a földi élet egyensúlyának záloga is.</p>
+                </div>
+                    <p class="p-2">Az esőerdők bolygónk legősibb, legösszetettebb és legrejtélyesebb ökoszisztémái, amelyek évezredek óta szinte változatlan formában tartják fenn az élet hihetetlen körforgását. Bár a Föld felszínének csupán töredékét borítják, jelentőségük és hatásuk a globális éghajlatra, valamint az emberiség mindennapjaira felbecsülhetetlen. Amikor belépünk egy esőerdő mélyére, egy olyan világban találjuk magunkat, ahol a természet törvényei a legtisztább formájukban uralkodnak, és ahol minden egyes élőlény hajszálvékony egyensúlyban él a környezetével.</p>
+                
             </div>
         </section>
     </main>
     <footer>
-
+        <div class="d-flex">
+            <p class="p-2">&copy; 2026 - Minden jog fenntartva!</p>
+            <p class="p-2">Készítette: T.Dávid - Sz.Szabolcs</p>
+        </div>
     </footer>
     <script>
 
