@@ -2,6 +2,10 @@ header, main section .container-fluid {
     color: #fff;
 }
 
+body{
+    text-align: justify;
+}
+
 header span {
     font-size: 23px;
 }
@@ -86,3 +90,20 @@ h1 {
     object-fit: cover;
 
 }
+
+.fajok .citromsarga {
+    color: #ffd900;
+}
+
+.fajok .narancssarga {
+    color: #ff9900;
+}
+
+.fajok .piros {
+    color: #ca1a1a;
+}
+
+.fajok ul {
+    background-color: #ffffff;
+}
+
