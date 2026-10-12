@@ -12,6 +12,10 @@ main section .container-fluid {
     color: #fff;
 }
 
+body{
+    text-align: justify;
+}
+
 header span {
     font-size: 23px;
 }
@@ -96,6 +100,30 @@ h1 {
     padding-left: 10px;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+.col-lg-5 p img{
+    width: 80%;
+    object-position: center;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+
+}
+
+.fajok .citromsarga {
+    color: #ffd900;
+}
+
+.fajok .narancssarga {
+    color: #ff9900;
+}
+
+.fajok .piros {
+    color: #ca1a1a;
+}
+
+.fajok ul {
+    background-color: #ffffff;
 }
 
 .container-fluid button {
