@@ -1,0 +1,80 @@
+header, main section .container-fluid {
+    color: #fff;
+}
+
+header span {
+    font-size: 23px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav,
+ul {
+    background-color: #2c5241;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    color: lightgreen;
+}
+
+nav {
+    justify-content: space-between;
+}
+
+nav img {
+    width: 50px;
+}
+
+header p {
+    align-items: center
+}
+
+nav,
+header p {
+    display: flex;
+}
+
+main section .container-fluid {
+    background-image: url(../images/slider1.jpg);
+    background-size: cover;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    object-fit: cover;
+    height: 488px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 0.6;
+    font-size: 60px;
+}
+
+.sliderTitle {
+    color: lightgreen;
+    border-left: 3px solid lightgreen;
+    padding-left: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
