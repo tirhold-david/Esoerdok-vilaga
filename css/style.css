@@ -9,7 +9,7 @@ body {
 
 header,
 main section .container-fluid,
-footer {
+footer, button a {
     color: #fff;
 }
 
@@ -218,4 +218,8 @@ footer .d-flex {
 nav div {
     margin-top: 5px;
     margin-left: 5px;
+}
+
+button a {
+ text-decoration: none;   
 }
