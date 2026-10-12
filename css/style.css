@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
 header,
 main section .container-fluid {
     color: #fff;
@@ -114,10 +123,30 @@ h2 {
 }
 
 body {
-    overflow-x: hidden !important;
+    overflow-x: hidden;
+    overflow-y: scroll !important;
 }
 
-div.row:first-of-type .col-lg-6 p:last-of-type {
+div.row {
     padding-bottom: 9px;
     border-bottom: 1px solid #ccc;
+}
+
+.greenSpan {
+    color: #2c5241;
+}
+
+.tukanContainer {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.tukanContainer img {
+    height: 100%;
+    width: 400px;
+}
+
+.col-lg-6 p {
+    font-size: 17px;
 }
