@@ -175,11 +175,13 @@ div.row {
 .tukanContainer {
     width: 250px;
     text-align: center;
+    border-radius: 20px;
 }
 
 .tukanContainer img {
     height: 100%;
     width: 400px;
+    border-radius: 20px;
 }
 
 .col-lg-6 p {
