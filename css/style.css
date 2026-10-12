@@ -8,7 +8,7 @@ body {
 }
 
 header,
-main section .container-fluid {
+main section .container-fluid, footer {
     color: #fff;
 }
 
@@ -36,7 +36,7 @@ ul {
 }
 
 nav,
-ul {
+ul, footer {
     background-color: #2c5241;
 }
 
@@ -201,4 +201,9 @@ iframe {
 .quizTitle {
     font-weight: bold;
     font-size: 20px;
+}
+
+footer .d-flex {
+    display: flex;
+    justify-content: space-between
 }
