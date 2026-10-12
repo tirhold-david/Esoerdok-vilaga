@@ -103,7 +103,7 @@ h1 {
 }
 
 .col-lg-5 p img{
-    width: 80%;
+    width: 90%;
     object-position: center;
     aspect-ratio: 1 / 1;
     object-fit: cover;
