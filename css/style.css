@@ -78,3 +78,11 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
+.col-lg-5 p img{
+    width: 80%;
+    object-position: center;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+
+}
