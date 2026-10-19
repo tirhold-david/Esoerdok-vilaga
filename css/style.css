@@ -205,6 +205,11 @@ div.row {
     font-size: 42px;
 }
 
+.dropdown-menu.show {
+    display: flex !important;
+    flex-direction: column;
+}
+
 .hatter, .hatter ul{
     background-color: rgb(240, 240, 240);
     border-radius: 10px;
@@ -250,6 +255,14 @@ nav div {
 button a {
  text-decoration: none;   
 
+}
+
+.mapLink {
+    text-decoration: none;
+}
+
+.mapLink:hover {
+    text-decoration: underline;
 }
 
 footer div p {
