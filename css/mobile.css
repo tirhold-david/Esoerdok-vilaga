@@ -6,7 +6,7 @@
 
     .tukanContainer,
     .sliderTitle,
-    header ul,  article .col-lg-5  {
+    header ul,  article .col-lg-5, .topPageBtn  {
         display: none;
     }
 
