@@ -265,3 +265,7 @@ footer div p {
 .erdoirtas .textDiv {
     background-color: rgba(34, 34, 34, 0.2);
 }
+
+.erdoirtas button:first-of-type{
+    background-color: #2b5a45;
+}
