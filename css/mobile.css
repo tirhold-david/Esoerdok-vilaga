@@ -64,4 +64,16 @@
     .mobileImg {
         display: flex !important;
     }
+
+    .erdoirtas .container-fluid {
+       height: auto;
+    }
+    .hatterContainer {
+        display: flex !important;
+        flex-direction: column;
+    }
+    .hatter.my-5 {
+    margin-top: 0rem !important;
+    margin-bottom: 2rem !important;
+}
 }
