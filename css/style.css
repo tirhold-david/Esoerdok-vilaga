@@ -253,3 +253,15 @@ footer div p {
 .fajok span a:hover{
     color: #40916C ;
 }
+
+.erdoirtas .container-fluid {
+    background-image: url(../images/erdo-irtas-slider.jpg);
+    background-size: 100% auto;
+    background-position: center 55%;
+    background-attachment: scroll !important;
+    height: 488px;
+}
+
+.erdoirtas .textDiv {
+    background-color: rgba(34, 34, 34, 0.2);
+}
