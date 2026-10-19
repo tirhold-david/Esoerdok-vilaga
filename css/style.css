@@ -293,3 +293,20 @@ footer div p {
     object-fit: cover;
     border-radius: 10px;
 }
+
+.zoldhatter{
+    background-color: #204233;
+    color: #ffffff;
+}
+
+.zoldhatter .row{
+    border: none;
+}
+
+.zoldhatter .row img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
