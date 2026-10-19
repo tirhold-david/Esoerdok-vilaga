@@ -12,7 +12,7 @@
 </head>
 
 <body>
-     <header>
+     <header id="top">
         <nav class="text-center">
             <div>
                 <p class="mb-0"><img src="images/leaf.svg" alt="Esőerdők Védelme Logo" title="Esőerdők Védelme">
@@ -26,6 +26,7 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="index.html">Főoldal</a></li>
                         <li><a class="dropdown-item" href="fajok.html">Veszélyeztetett állatok</a></li>
+                        <li><a class="dropdown-item" href="erdoirtas.html">Erdőírtás</a></li>
                         <li><a class="dropdown-item" href="tippek.html">Tippek</a></li>
                         <li><a class="dropdown-item" href="#">Kvíz</a></li>
                         <li><a class="dropdown-item" href="#">Térkép</a></li>
@@ -134,7 +135,7 @@
                             elsődleges táplálékforrását, miközben a rovarok (hangyák, pókok) száma szabályozatlanul
                             megugrik.</p>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 mobileImg">
                         <p class="text-center m-0"><img src="images/selyemmajom.jpg" alt="selyem majom"
                                 title="selyem majom"></p>
                     </div>
@@ -165,6 +166,10 @@
                             Kihalásukkal a trópusi erdők növényi sokfélesége összeomlana, ami láncreakciót indítana el
                             az összes többi növényevő és madárfaj körében is.</p>
                     </div>
+                     <div class="col-lg-5 mobileImg d-none">
+                        <p class="text-center m-0"><img src="images/orangutan.jpg" alt="orángután" title="orángután">
+                        </p>
+                    </div>
                 </div>
             </article>
             <article class="mb-5">
@@ -187,7 +192,7 @@
                             Ez megállítja a fák természetes megújulását, tönkreteszi a madarak fészkelőhelyeit, és
                             katasztrofális talajerózióhoz, végül a terület elsivatagosodásához vezet.</p>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 mobileImg">
                         <p class="text-center m-0"><img src="images/jaguar.jpg" alt="jaguár" title="jaguár"></p>
                     </div>
                 </div>
@@ -217,6 +222,10 @@
                             szabályozatlanul elszaporodnának, ami felborítaná a talaj tápanyagciklusát, és súlyos
                             károkat okozna az esőerdei növényzet gyökérzetében.</p>
                     </div>
+                    <div class="col-lg-5 d-none mobileImg">
+                        <p class="text-center m-0"><img src="images/nyilmeregbeka.jpg" alt="nyílméregbéka"
+                                title="nyílméregbéka"></p>
+                    </div>
                 </div>
             </article>
             <article class="mb-5">
@@ -242,13 +251,16 @@
                             populációi drasztikusan megugranak. A túlszaporodott lajhárok és majmok szisztematikusan le
                             fogják rágni a fák legfelső, legfiatalabb hajtásait és leveleit.</p>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 mobileImg">
                         <p class="text-center m-0"><img src="images/harpia.jpg" alt="hárpia" title="hárpia"></p>
                     </div>
                 </div>
             </article>
         </section>
     </main>
+     <a href="#top" class="btn btn-success btn-lg rounded-circle position-fixed bottom-0 end-0 m-4 topPageBtn">
+        <i class="bi bi-arrow-up"></i>
+    </a>
     <footer>
         <div class="d-flex">
             <p>&copy; 2026 - Minden jog fenntartva!</p>

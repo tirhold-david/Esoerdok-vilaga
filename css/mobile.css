@@ -6,7 +6,7 @@
 
     .tukanContainer,
     .sliderTitle,
-    header ul {
+    header ul,  article .col-lg-5, .topPageBtn  {
         display: none;
     }
 
@@ -60,5 +60,8 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
+    }
+    .mobileImg {
+        display: flex !important;
     }
 }
