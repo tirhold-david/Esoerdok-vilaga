@@ -239,3 +239,7 @@ button a {
  text-decoration: none;   
 
 }
+
+footer div p {
+    margin: 20px;
+}
