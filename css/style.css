@@ -196,6 +196,12 @@ div.row {
     border-radius: 20px;
 }
 
+.erdoIrtasImg {
+    height: 420px;
+    width: 600px !important;
+    border-radius: 20px;
+}
+
 .col-lg-6 p {
     font-size: 17px;
 }
