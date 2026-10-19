@@ -21,6 +21,10 @@
         flex-wrap: nowrap;
     }
 
+    .fajok.container-fluid {
+        background-size: auto;
+    }
+
     h1 {
         font-weight: bold;
         font-size: 26px;
