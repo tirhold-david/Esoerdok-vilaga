@@ -343,3 +343,12 @@ footer div p {
 .erdoirtas .btn:hover {
     background-color: lightgreen;
 }
+
+.fajok .container-fluid{
+    background-image: url(../images/esoerdo-naplemente.jpg);
+    background-size: 100% auto;
+    background-position: center 10%;
+    background-attachment: scroll !important;
+    height: 488px;
+    
+}
