@@ -310,3 +310,6 @@ footer div p {
     object-position: center;
     border-radius: 10px;
 }
+.erdoirtas .btn:hover {
+    background-color: lightgreen;
+}
