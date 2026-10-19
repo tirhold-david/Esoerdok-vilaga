@@ -189,7 +189,7 @@ div.row {
     font-size: 17px;
 }
 
-.fajok h2{
+.fajok h2, .erdoirtas h2{
     font-weight: 600;
     font-size: 42px;
 }
@@ -285,4 +285,11 @@ footer div p {
 .erdoirtas .d-flex div h3{
     font-size: 42px;
     font-weight: 600;   
+}
+.markolo img{
+    display: block;
+    width: 100%;
+    aspect-ratio: 5/2;
+    object-fit: cover;
+    border-radius: 10px;
 }
