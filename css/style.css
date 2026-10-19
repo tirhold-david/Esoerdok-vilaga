@@ -243,3 +243,13 @@ button a {
 footer div p {
     margin: 20px;
 }
+
+.fajok span a {
+    color: #2b5a45;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.fajok span a:hover{
+    color: #40916C ;
+}
