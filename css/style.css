@@ -269,3 +269,19 @@ footer div p {
 .erdoirtas button:first-of-type{
     background-color: #2b5a45;
 }
+
+.erdoirtas .d-flex {
+    justify-content: space-between;
+}
+
+.erdoirtas .d-flex div{
+    width: 100%;
+    margin: 5px;
+    background-color: #3a3a3a;
+    color: #ffff;
+}
+
+.erdoirtas .d-flex div h3{
+    font-size: 42px;
+    font-weight: 600;   
+}
