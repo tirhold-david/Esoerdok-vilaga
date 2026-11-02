@@ -374,3 +374,9 @@ footer div p {
 #esoerdo-kviz h3:focus {
   outline: none;
 }
+
+.mapContainer iframe {
+    width: 800px !important;
+    border: 0;
+    height: 800px !important;
+}
