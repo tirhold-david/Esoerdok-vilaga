@@ -352,3 +352,25 @@ footer div p {
     height: 488px;
     
 }
+
+#esoerdo-kviz {
+  font-family: "Montserrat", sans-serif;
+}
+
+#esoerdo-kviz h2,
+#esoerdo-kviz h3 {
+  color: #204c3b;
+}
+
+#esoerdo-kviz .btn-erdo {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #204c3b;
+  --bs-btn-border-color: #204c3b;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #2f6b53;
+  --bs-btn-hover-border-color: #2f6b53;
+}
+
+#esoerdo-kviz h3:focus {
+  outline: none;
+}
