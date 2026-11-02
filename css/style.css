@@ -180,6 +180,10 @@ div.row {
     border-bottom: 1px solid #ccc;
 }
 
+#esoerdo-kviz .row {
+   border-bottom: none !important;
+}
+
 .greenSpan {
     color: #2c5241;
 }
