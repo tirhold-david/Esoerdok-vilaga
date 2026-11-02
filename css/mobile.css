@@ -80,4 +80,16 @@
     margin-top: 0rem !important;
     margin-bottom: 2rem !important;
 }
+.fajok .container-fluid {
+    background-size: cover;
+}
+.fajok .hatter .mb-5 {
+    font-size: 41px;
+}
+.fajok h2, .erdoirtas h2 {
+    font-size: 34px;
+}
+.fajok .col-lg-7 h3 {
+    font-size: 30px;
+}
 }
