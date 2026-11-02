@@ -352,3 +352,10 @@ footer div p {
     height: 488px;
     
 }
+
+.mapContainer iframe {
+    width: 800px !important;
+    border: 0;
+    height: 800px !important;
+}
+
