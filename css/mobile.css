@@ -6,7 +6,10 @@
 
     .tukanContainer,
     .sliderTitle,
-    header ul,  article .col-lg-5, .topPageBtn, .mapContainer  {
+    header ul,
+    article .col-lg-5,
+    .topPageBtn,
+    .mapContainer {
         display: none;
     }
 
@@ -65,31 +68,39 @@
         flex-direction: column;
         align-items: center;
     }
+
     .mobileImg {
         display: flex !important;
     }
 
     .erdoirtas .container-fluid {
-       height: auto;
+        height: auto;
     }
+
     .hatterContainer {
         display: flex !important;
         flex-direction: column;
     }
+
     .hatter.my-5 {
-    margin-top: 0rem !important;
-    margin-bottom: 2rem !important;
-}
-.fajok .container-fluid {
-    background-size: cover;
-}
-.fajok .hatter .mb-5 {
-    font-size: 41px;
-}
-.fajok h2, .erdoirtas h2 {
-    font-size: 34px;
-}
-.fajok .col-lg-7 h3 {
-    font-size: 30px;
-}
+        margin-top: 0rem !important;
+        margin-bottom: 2rem !important;
+    }
+
+    .fajok .container-fluid {
+        background-size: cover;
+    }
+
+    .fajok .hatter .mb-5 {
+        font-size: 41px;
+    }
+
+    .fajok h2,
+    .erdoirtas h2 {
+        font-size: 34px;
+    }
+
+    .fajok .col-lg-7 h3 {
+        font-size: 30px;
+    }
 }
