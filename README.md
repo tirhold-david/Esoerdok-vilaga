@@ -28,7 +28,7 @@ A projekt során valós fejlesztői folyamatot követtünk: **kutatás ➡️ te
 ## 🛠️ Technikai elvárások
 
 ### 🏗️ Frontend & Stílus
-* **HTML5:** Szemantikus szerkezet használata (`<header>`, `<nav>`, `<section>`, `<article>`, `<footer`>).
+* **HTML5:** Szemantikus szerkezet használata (`<header>`, `<nav>`, `<section>`, `<article>`, `<footer>`).
 * **CSS3:** Saját stíluslap, egyedi animációk és teljes körű reszponzív megjelenés.
 * **Bootstrap 5:** Grid rendszer, kártyák (cards), menürendszer és képgaléria (carousel).
 
