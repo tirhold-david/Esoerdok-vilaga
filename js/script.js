@@ -1,4 +1,4 @@
-import { Quiz } from "./Quiz.js";
+import { Quiz } from "./quiz.js";
 
 const kviz = new Quiz();
 const betuk = ["A", "B", "C", "D"];
